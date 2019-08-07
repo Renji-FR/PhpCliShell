@@ -1,0 +1,18 @@
+{
+	"FIREWALL":
+	{
+		"configuration":
+		{
+			"objects" : {
+				"file": "/home/renji/git/cloudwatt/network-document/tools-cli/firewall/prdx/objects.json"
+			},
+			"configs": {
+				"path": "/home/renji/git/cloudwatt/network-document/tools-cli/firewall/prdx/configurations"
+			},
+			"autosave": {
+				"status": true,
+				"file": "backup/firewall/autosave_prdx.json"
+			}
+		}
+	}
+}

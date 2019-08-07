@@ -1,0 +1,17 @@
+{
+    "name": "cloudwatt/php-cli-shell",
+    "description": "PHP-CLI Shell for applications like DCIM (PatchManager), IPAM (phpIPAM, NetBox), Firewall (ACL/NAT)",
+    "keywords": ["application", "cli", "shell", "php-cli-shell", "dcim", "ipam", "patchmanager", "phpipam", "netbox", "firewall", "acl", "nat"],
+    "homepage": "https://github.com/cloudwatt/php-cli-shell",
+    "license": "GPL-3.0",
+    "require": {
+	"php": ">=7.1.0",
+	"ext-mbstring": "*",
+	"ext-readline": "*",
+	"ext-soap": "*",
+	"ext-curl": "*",
+	"ext-json": "*",
+	"ext-zlib": "*",
+        "symfony/console": "^4.3"
+    }
+}

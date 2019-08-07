@@ -1,0 +1,35 @@
+{
+    "algorithm": "OPENSSL",
+    "annotations": true,
+    "banner": false,
+    "banner-file": null,
+    "base-path": null,
+    "check-requirements": true,
+    "chmod": "0644",
+    "compactors": [
+	"KevinGH\\Box\\Compactor\\Php",
+	"KevinGH\\Box\\Compactor\\Json"
+    ],
+    "compression": "GZ",
+    "directories": [
+	"src/phpCliShell/",
+	"vendor"
+    ],
+    "map": [
+        { "src/phpCliShell/": "phpCliShell" }
+    ],
+    "dump-autoload": true,
+    "exclude-composer-files": true,
+    "force-autodiscovery": false,
+    "git": "git",
+    "git-commit": "git_commit",
+    "git-commit-short": "git_commit_short",
+    "git-tag": "git_tag",
+    "git-version": "git_version",
+    "key": "build/phpCliShell.pem",
+    "key-pass": true,
+    "main": "src/phpCliShell/console/main.php",
+    "output": "build/phpCliShell.phar",
+    "shebang": null,
+    "stub": true
+}

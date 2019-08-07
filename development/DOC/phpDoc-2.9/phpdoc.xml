@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor>
+  <title>TOOLS-CLI</title>
+  <parser>
+    <target>data/cache</target>
+  </parser>
+  <transformer>
+    <target>data/output</target>
+  </transformer>
+  <files>
+    <directory>../../../src/phpCliShell</directory>
+  </files>
+</phpdocumentor>
